@@ -1,0 +1,5 @@
+build: 
+  - pwd
+  - npm install
+  - chmod +x ./node_modules/.bin/react-scripts #add this line
+  - npm run build 
